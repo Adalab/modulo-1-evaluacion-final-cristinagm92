@@ -1,0 +1,20 @@
+.fondo {background-image: url(../cover.jpeg); 
+    
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     
+}
+.hamburger {background-color: blue;
+position: fixed;
+top: 0;
+left: 0;
+padding: 10px;
+    
+}
+.scroll {border-radius:40%}
