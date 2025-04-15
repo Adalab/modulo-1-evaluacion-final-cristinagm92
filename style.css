@@ -17,11 +17,11 @@
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    font-variation-settings:;
+    font-variation-settings:wight 100;
       
   }
 
-.fondo {background-image: url(../cover.jpeg); 
+.fondo {background-image: url(./images/cover.jpeg); 
     
     height: 100vh;
     width: 100vw;
@@ -98,8 +98,6 @@ font-weight: bold}
 .reasons {background-color:#eff9ff;
 display: grid;
 gap: 1rem;
-width: 320px;
-height: 624px;
 justify-items: center;
 }
 .Treason {width: 190px;
