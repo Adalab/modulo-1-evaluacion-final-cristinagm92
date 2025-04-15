@@ -211,6 +211,7 @@ h3 {
 }
 
 /* Footer */
+/* Estilos generales para el footer */
 .footer {
   display: flex;
   flex-direction: column;
@@ -218,46 +219,151 @@ h3 {
   align-items: center;
   background-color: #304268;
   color: white;
-  animation: fadeInUp 1s ease-out;
+  padding: 20px;
+  gap: 30px;
+  text-align: center;
 }
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.contenfooter,
-.redes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  margin-top: 40px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-/* Botón flecha del footer */
 .buttonarrow {
   border-radius: 50%;
   width: 37px;
   height: 37px;
+  background-color: white; /* Asegura fondo blanco */
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   animation: bounce 2s infinite;
+  cursor: pointer;
+  padding: 0;
+}
+
+.buttonarrow img {
+  filter: none; /* Asegura que no tenga tintes raros */
 }
 
 
-    
- 
 
- 
-  
+
+/* Botón centrado arriba */
+.footerbutton {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px; 
+  border-radius: 50px 
+}
+
+/* Contenedor de los artículos en el footer */
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Por defecto, en columna */
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 30px;
+  color : white;
+}
+
+/* Los artículos dentro del footer */
+.footer-content article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: none
+}
+
+
+/* Estilos generales para el footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #304268;
+  color: white;
+  padding: 20px;
+  gap: 30px;
+  text-align: center;
+}
+
+/* Botón centrado arriba */
+.footerbutton {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px; /* Espacio entre el botón y los artículos */
+}
+
+/* Contenedor de los artículos en el footer */
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Por defecto, en columna */
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 30px;
+}
+
+/* Los artículos dentro del footer */
+.footer-content article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* Establecer el orden de los artículos en móviles (por defecto) */
+.copy {
+  order: 3; /* En móviles, copy será el último */
+}
+
+.redes {
+  order: 2; /* Redes en el medio */
+}
+
+.contenfooter {
+  order: 1; /* Contenfooter será el primero */
+}
+
+/* Media query para pantallas más grandes (desde 670px) */
+@media (min-width: 670px) {
+  /* Los artículos en fila (en lugar de columna) */
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between; /* Espacio entre los artículos */
+  }
+
+  /* Cambiar el orden en pantallas grandes */
+  .copy {
+    order: 1; /* Primero en pantallas grandes */
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .redes {
+    order: 2; /* Segundo en pantallas grandes */
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .contenfooter {
+    order: 3; /* Tercero en pantallas grandes */
+    align-items: flex-start;
+    text-align: left;
+  }
+}
