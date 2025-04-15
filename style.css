@@ -17,8 +17,8 @@
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+    font-variation-settings:;
+      
   }
 
 .fondo {background-image: url(../cover.jpeg); 
@@ -93,3 +93,18 @@ font-weight: bold}
   border-radius: 22.5px;
   border: solid 2px #f26002;
 }
+
+.reasons {background-color:#eff9ff;
+display: grid;
+gap: 1rem;
+width: 300px;
+justify-items: center;}
+
+.onereason{justify-content: center;
+justify-items: center;}
+
+.tworeason{justify-content: center;
+justify-items: center;}
+
+.threereason{justify-content: center;
+justify-items: center;}
