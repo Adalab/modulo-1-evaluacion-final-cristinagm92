@@ -133,3 +133,31 @@ h3 {font-family: "Roboto Slab", serif;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;}
+
+  .footer { display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #304268;
+color: white;}
+
+.redes {display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+text-decoration: none;
+margin-top: 40px;
+}
+
+a {text-decoration: none;
+color: white;}
+  
+.contenfooter {display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-decoration: none; 
+  margin-top: 40px;}
+
