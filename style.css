@@ -168,9 +168,12 @@ h2 {
     max-width: 600px;
   }
   
-  @media (min-width: 768px) 
-    .reasons-grid {
-      grid-template-columns: repeat(3, 1fr);
+  
+    
+    @media (min-width: 670px) {
+      .reasons-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
 
 .onereason,
@@ -251,3 +254,10 @@ a {
   height: 37px;
   animation: bounce 2s infinite;
 }
+
+
+    
+ 
+
+ 
+  
