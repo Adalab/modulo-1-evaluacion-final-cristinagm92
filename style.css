@@ -219,7 +219,7 @@ h2 {
     .reasons-grid {
       grid-template-columns: repeat(3, 1fr);
     }
-    /* No hace falta repetir .onereason aquí si el estilo ya está aplicado globalmente */
+    
   }
   
 }
