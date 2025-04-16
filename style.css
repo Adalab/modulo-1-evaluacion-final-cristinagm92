@@ -203,22 +203,28 @@ h2 {
   gap: 1.5rem;
   width: 100%;
   max-width: 600px;
-}
 
-@media (min-width: 670px) {
-  .reasons-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
-
 .onereason,
 .tworeason,
 .threereason {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  justify-items: center;
   text-align: center;
 }
+
+
+@media (min-width: 670px) {
+  @media (min-width: 670px) {
+    .reasons-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    /* No hace falta repetir .onereason aquí si el estilo ya está aplicado globalmente */
+  }
+  
+}
+
+  
 
 h3 {
   font-family: "Roboto Slab", serif;
