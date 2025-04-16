@@ -109,6 +109,10 @@ p {
 }
 
 /* Sección insomnia */
+
+.insomnia {margin-top:10px;
+  margin-bottom: 10px;
+  }
 .blue {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -141,6 +145,25 @@ h2 {
   margin-bottom: 10px;
   cursor: pointer;
 }
+
+@media (min-width: 960px) {
+  .blue {margin-left: 40%;
+    margin-right: 40%;
+}
+  .grey {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+ .Tinsomnia {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .go {
+    margin-left: 20%;
+    margin-right: 20%;
+  
+  }}
+   
 
 /* Sección reasons */
 .reasons {
