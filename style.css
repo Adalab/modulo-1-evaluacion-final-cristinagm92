@@ -18,7 +18,7 @@
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  font-variation-settings: 'wght' 100;
+  font-variation-settings: "wght" 100;
 }
 
 /* Sección fondo principal */
@@ -78,7 +78,11 @@
 
 /* Animación rebote */
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -114,13 +118,16 @@ p {
   text-align: center;
   color: white;
 }
-a {text-decoration: none;}
+a {
+  text-decoration: none;
+}
 
 /* Sección insomnia */
 
-.insomnia {margin-top:10px;
+.insomnia {
+  margin-top: 10px;
   margin-bottom: 10px;
-  }
+}
 .blue {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -155,57 +162,53 @@ h2 {
 }
 
 @media (min-width: 960px) {
-  .blue {margin-left: 40%;
+  .blue {
+    margin-left: 40%;
     margin-right: 40%;
-}
+  }
   .grey {
     margin-left: 20%;
     margin-right: 20%;
   }
- .Tinsomnia {
+  .Tinsomnia {
     margin-left: 20%;
     margin-right: 20%;
   }
   .go {
     margin-left: 20%;
     margin-right: 20%;
-  
-  }}
-   
+  }
+}
 
 /* Sección reasons */
 .reasons {
-  
-    background-color: #eff9ff;
-    display: grid;
-    grid-template-rows: auto auto auto;
-    gap: 2rem;
-    justify-items: center;
-    padding: 2rem 1rem;
-  } 
+  background-color: #eff9ff;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 2rem;
+  justify-items: center;
+  padding: 2rem 1rem;
+}
 
+.Treason {
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.reasons-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+}
 
-  .Treason {
-    font-family: "Roboto Slab", serif;
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 0;
-  }
+@media (min-width: 670px) {
   .reasons-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    width: 100%;
-    max-width: 600px;
+    grid-template-columns: repeat(3, 1fr);
   }
-  
-  
-    
-    @media (min-width: 670px) {
-      .reasons-grid {
-        grid-template-columns: repeat(3, 1fr);
-      }
-    }
+}
 
 .onereason,
 .tworeason,
@@ -215,7 +218,6 @@ h2 {
   align-items: center;
   text-align: center;
 }
-
 
 h3 {
   font-family: "Roboto Slab", serif;
@@ -272,16 +274,13 @@ h3 {
   filter: none; /* Asegura que no tenga tintes raros */
 }
 
-
-
-
 /* Botón centrado arriba */
 .footerbutton {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 20px; 
-  border-radius: 50px 
+  margin-bottom: 20px;
+  border-radius: 50px;
 }
 
 /* Contenedor de los artículos en el footer */
@@ -293,7 +292,7 @@ h3 {
   width: 100%;
   max-width: 1000px;
   margin-top: 30px;
-  color : white;
+  color: white;
 }
 
 /* Los artículos dentro del footer */
@@ -312,9 +311,8 @@ h3 {
 }
 
 .footer a:hover {
-  text-decoration: none
+  text-decoration: none;
 }
-
 
 /* Estilos generales para el footer */
 .footer {
@@ -384,6 +382,7 @@ h3 {
     order: 1; /* Primero en pantallas grandes */
     align-items: flex-start;
     text-align: left;
+    margin: right 60px;
   }
 
   .redes {
@@ -396,5 +395,6 @@ h3 {
     order: 3; /* Tercero en pantallas grandes */
     align-items: flex-start;
     text-align: left;
+    margin-left: 60px;
   }
 }
