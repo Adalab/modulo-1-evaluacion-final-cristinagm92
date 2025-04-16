@@ -1,0 +1,2 @@
+este es mi ejercicio de evaluacion,donde he intentado aplicar flex y grid en zonas indicadas ,media q en las adaptaciones correspondietnes y dar un plus en actividad por ejemplo en los botones..he intentado identar y dejar claro con comentarios todo el archivo.
+las barras de navegacion llevaran  a adalab puesto que es una prueba de web y no es para una empresa concreta,pero dejando ver lo que podria llegar a ser si fuera funcional.
