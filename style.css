@@ -383,7 +383,7 @@ h3 {
     order: 1; /* Primero en pantallas grandes */
     align-items: flex-start;
     text-align: left;
-    margin: right 60px;
+    margin: right 90px;
   }
 
   .redes {
@@ -396,6 +396,6 @@ h3 {
     order: 3; /* Tercero en pantallas grandes */
     align-items: flex-start;
     text-align: left;
-    margin-left: 60px;
+    margin-left: 90px;
   }
 }
